@@ -1,0 +1,11 @@
+// This is just a basic example, you can add more interactivity with JavaScript
+
+const headerEl = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    headerEl.classList.add("scrolled");
+  } else {
+    headerEl.classList.remove("scrolled");
+  }
+});
